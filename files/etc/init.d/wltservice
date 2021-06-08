@@ -1,0 +1,8 @@
+#!/bin/sh /etc/rc.common
+
+START=99
+#insmod some drv
+insmod /lib/modules/3.18.45/wlt_gpio.ko
+insmod /lib/modules/3.18.45/wlt_mdio.ko
+insmod /lib/modules/3.18.45/wlt_cable.ko
+/usr/bin/wlt_app &

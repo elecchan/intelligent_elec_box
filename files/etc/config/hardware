@@ -1,0 +1,7 @@
+config interface 'rs485'
+		option dev      '/dev/ttyS1'
+        option baudrate '115200'
+        option databits '8'
+        option stopbit  '1'
+        option parity   '0'
+

@@ -1,0 +1,20 @@
+config interface 'sensor'
+	option temp '25'
+	option hum  '63'
+	option light '10'
+
+config interface 'switch'
+	option volout8 '0-0-0-0-0-0-0-0'
+	option volout2 '0-0'
+	option switchin '0'
+	option switchout '0'
+
+config interface 'device'
+	option fan '0'
+	option heat '0'
+	option door '0'
+	option led  '0'
+	option water '0'
+
+config interface 'server'
+	option link '0'

@@ -1,0 +1,26 @@
+config setting 'device'
+        option name 'd001'
+        option org  '1'
+        option type '1'
+        option ip '192.168.0.148'
+        option location 'none'
+
+config setting 'server'
+        option ip "192.168.0.10"
+        option port '55536'
+
+config setting 'uart'
+        option rs232_baud '8'
+        option rs232_databit '1'
+        option rs232_parity '1'
+        option rs232_stopbit '1'
+        option rs485_baud '8'
+        option rs485_databit '1'
+        option rs485_parity '1'
+        option rs485_stopbit '1'
+
+config setting 'warm'
+        option temperature_h '70'
+        option temperature_l '-20'
+        option humidity_h '95'
+        option humidity_l '5'
